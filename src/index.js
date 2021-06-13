@@ -1,2 +1,5 @@
-export { default as MyButton } from './MyButton.jsx';
-export { default as MyBigTable } from './MyBigTable.jsx';
+export * from './MyButton.jsx';
+export * from './MyDiv.jsx';
+export * from './vars';
+export * from './fns';
+export * from './data';
