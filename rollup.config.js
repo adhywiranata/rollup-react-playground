@@ -5,7 +5,7 @@ import pkg from './package.json';
 export default [
 	{
 		input: 'src/index.js',
-		external: ['react', '@babel/runtime'],
+		external: ['react', '@babel/runtime', 'lottie-web'],
 		output: [
 			{ file: pkg.main, format: 'cjs' },
 			{ file: pkg.module, format: 'es' }

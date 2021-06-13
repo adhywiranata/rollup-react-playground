@@ -1,6 +1,6 @@
 {
   "name": "rollup-react-playground",
-  "version": "2.8.0",
+  "version": "2.12.0",
   "main": "dist/lib.cjs.js",
   "module": "dist/lib.esm.js",
   "sideEffects": false,
@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.14.5",
+    "lottie-web": "^5.7.11",
     "react": "^17.0.2"
   },
   "devDependencies": {
